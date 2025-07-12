@@ -1,3 +1,19 @@
+Design and deploy an ML pipeline that:
+
+Trains a model on Titanic dataset
+
+Logs experiments using MLflow
+
+Deploys model using FastAPI
+
+Schedules daily retraining using Airflow
+
+Logs predictions and exposes Grafana dashboard
+
+✅ Goal: Build an end-to-end MLOps pipeline using open-source tools
+📘 Use Case: Titanic dataset – train, track, deploy, and monitor a model
+🎯 Tools: MLflow, FastAPI, Airflow, Docker, GitHub Actions (optional), Grafana + Prometheus
+
 titanic-mlops/
 ├── data/
 │   └── titanic.csv
