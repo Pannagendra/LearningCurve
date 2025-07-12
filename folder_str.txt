@@ -1,0 +1,19 @@
+titanic-mlops/
+├── data/
+│   └── titanic.csv
+├── notebooks/
+│   └── eda.ipynb
+├── src/
+│   ├── train.py
+│   ├── predict.py
+│   └── preprocess.py
+├── app/
+│   └── main.py
+├── airflow/
+│   └── dags/
+│       └── retrain_pipeline.py
+├── Dockerfile
+├── requirements.txt
+├── mlruns/  # MLflow artifacts
+├── README.md
+└── .env
